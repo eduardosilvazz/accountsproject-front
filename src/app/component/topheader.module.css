@@ -1,0 +1,50 @@
+.topHeader {
+    width: 100%;
+    background-color: #e06969;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center; /* Center align navigation items */
+    margin-bottom: 10px; /* Bottom margin for separation */
+}
+
+.navList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align items */
+}
+
+.socialLinks {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    right: 20;
+    position: absolute;
+
+}
+
+.navItem {
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+.navItem a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navItem a:hover {
+    text-decoration: underline;
+}
+
+.discordIcon {
+    max-width: 30px;
+    height: auto; 
+    flex-shrink: 0;
+    object-fit: cover;
+}

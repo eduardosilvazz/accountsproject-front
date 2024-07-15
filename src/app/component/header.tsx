@@ -6,6 +6,7 @@ const Header: React.FC = () => {
     return (
         <header className={styles.header}>
             <h1>Marketplace</h1>
+            <h1>oi</h1>
         </header>
     );
 }

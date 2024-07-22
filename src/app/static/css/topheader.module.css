@@ -10,7 +10,8 @@
 .nav {
     display: flex;
     justify-content: center; /* Center align navigation items */
-    margin-bottom: 10px; /* Bottom margin for separation */
+    margin-bottom: 10px; 
+     /* Bottom margin for separation */
 }
 
 .navList {
@@ -44,6 +45,13 @@
 
 .discordIcon {
     max-width: 30px;
+    height: auto; 
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.instagramIcon {
+    max-width: 25px;
     height: auto; 
     flex-shrink: 0;
     object-fit: cover;

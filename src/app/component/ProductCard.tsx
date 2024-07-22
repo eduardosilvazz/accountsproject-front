@@ -1,5 +1,6 @@
+// src/app/component/ProductCard.tsx
 import React from 'react';
-import styles from './ProductCard.module.css';
+import styles from '../static/css/ProductCard.module.css';
 
 interface ProductCardProps {
     image: string;

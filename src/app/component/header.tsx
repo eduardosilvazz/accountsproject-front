@@ -1,12 +1,11 @@
 // components/Header.tsx
 import React from 'react';
-import styles from './header.module.css'; // Import CSS module
+import styles from '../static/css/header.module.css'; // Import CSS module
 
 const Header: React.FC = () => {
     return (
         <header className={styles.header}>
             <h1>Marketplace</h1>
-            <h1>oi</h1>
         </header>
     );
 }

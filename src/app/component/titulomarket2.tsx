@@ -1,7 +1,7 @@
 export default function Example(){
     return(
         <>
-            <h1>CATEGORIA 2</h1>
+            <h1>Categoria 2</h1>
         </>
     )
 }

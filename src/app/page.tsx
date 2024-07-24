@@ -9,6 +9,7 @@ import Sidebar from './component/sidebar';
 import TopHeader from './component/topheader';
 import styles from './page.module.css';
 import Titulomarket2 from './component/titulomarket2'
+import Banner from './component/Banner'
 
 interface Product {
     id: number;
@@ -27,8 +28,10 @@ export default function Home() {
     return (
         <>
             <TopHeader />
-            <div className={styles.container}>
+            <div>
                 <Header />
+            </div>
+            <div className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.mainContent}>
                         <Example />
@@ -36,7 +39,9 @@ export default function Home() {
                         <Titulomarket2 />
                         <Marketplace />
                     </div>
-                    <Sidebar />
+                </div>
+                <div id='div-fodinha'>
+                    <Banner/>
                 </div>
             </div>
         </>

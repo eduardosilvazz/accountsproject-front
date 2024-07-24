@@ -1,0 +1,5 @@
+/* src/static/css/banner.module.css */
+.banner img {
+    width: 30vw;
+    height: 100vh;
+}

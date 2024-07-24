@@ -2,27 +2,6 @@
 import { useEffect,useState } from "react";
 import ProductCard from "./ProductCard";
 
-const products = [
-    {
-        image: 'https://via.placeholder.com/150',
-        title: 'Product 1',
-        price: 'R$10.00',
-        description: 'This is great product.'
-    },
-    {
-        image: 'https://via.placeholder.com/150',
-        title: 'Product 2',
-        price: 'R$20.00',
-        description: 'This is another great product.'
-    },
-    {
-        image: 'https://via.placeholder.com/150',
-        title: 'Product 3',
-        price: 'R$25.00',
-        description: 'This is another great product.'
-    }
-];
-
 interface Product {
     id: number;
     name: string;
@@ -31,7 +10,7 @@ interface Product {
 }
 
 async function getData(): Promise<Product[]>{
-    const res = await fetch('http://localhost:8000/api/products/');
+    const res = await fetch('http://localhost:8000/products/');
     const productList = await res.json();
     console.log("oi", productList)
     return productList

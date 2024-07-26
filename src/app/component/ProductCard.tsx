@@ -1,7 +1,7 @@
 // src/app/component/ProductCard.tsx
 import React from 'react';
 import styles from '../static/css/ProductCard.module.css';
-
+import Link from 'next/link';
 interface ProductCardProps {
     image: string;
     title: string;
@@ -14,7 +14,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ image, title, price, descript
         <div className={styles.card}>
             <img src={image} alt={title} className={styles.image} />
             <div className={styles.details}>
+            <Link href={"/checkout"}>
                 <h2 className={styles.title}>{title}</h2>
+            </Link>
                 <p className={styles.price}>{price}</p>
                 <p className={styles.description}>{description}</p>
             </div>

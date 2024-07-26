@@ -9,7 +9,7 @@ interface BannerProps {
 const Banner: React.FC<BannerProps> = ({ text, imageUrl }) => {
     return (
         <div className={styles.banner} style={{ backgroundImage: `url(${imageUrl})` }}>
-            <img src="images/cypher-bruto.png"/>
+            <img src="images/cypher-bruto-no-background.png"/>
         </div>
     );
 };

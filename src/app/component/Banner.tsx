@@ -6,7 +6,7 @@ interface BannerProps {
     imageUrl: string;
 }
 
-const Banner: React.FC<BannerProps> = ({ text, imageUrl }) => {
+const Banner: React.FC<BannerProps> = ({ imageUrl }) => {
     return (
         <div className={styles.banner} style={{ backgroundImage: `url(${imageUrl})` }}>
             <img src="images/cypher-bruto-no-background.png"/>

@@ -33,6 +33,7 @@ export default function Marketplace() {
             <div style={{ display: 'flex', gap: '16px' }}>
                 {data.map((product, index) => (
                     <ProductCard
+                        id={product.id}
                         key={index}
                         image={product.image}
                         title={product.name}

@@ -36,8 +36,8 @@ export default function Home() {
                     <div className={styles.mainContent}>
                         <Example />
                         <Marketplace />
-                        <Titulomarket2 />
-                        <Marketplace />
+                        {/* <Titulomarket2 />
+                        <Marketplace /> */}
                     </div>
                 </div>
                 <div id='div-fodinha'>
